@@ -17,21 +17,24 @@ Design and implement an Intrusion Detection System (IDS) that uses machine learn
 - Model evaluation using accuracy, precision, recall, and F1-score metrics.
 
 ## Folder Structure
+
+```
 IDS-ML/
 ├── data/
-│ ├── captured_traffic.csv # Processed network traffic data
-│ └── test_data.csv # Test dataset
+│   ├── captured_traffic.csv      # Processed network traffic data
+│   └── test_data.csv             # Test dataset
 ├── models/
-│ ├── decision_tree.pkl # Saved ML model
-│ └── deep_learning_model.h5 # Saved TensorFlow model
+│   ├── decision_tree.pkl         # Saved ML model
+│   └── deep_learning_model.h5    # Saved TensorFlow model
 ├── notebooks/
-│ └── exploration.ipynb # Exploratory data analysis
+│   └── exploration.ipynb         # Exploratory data analysis
 ├── scripts/
-│ ├── train_model.py # Script to train models
-│ ├── detect.py # Script to perform intrusion detection
-│ └── preprocess.py # Data preprocessing pipeline
-├── requirements.txt # List of dependencies
+│   ├── train_model.py            # Script to train models
+│   ├── detect.py                 # Script to perform intrusion detection
+│   └── preprocess.py             # Data preprocessing pipeline
+├── requirements.txt              # List of dependencies
 └── README.md
+```
 
 ## How to Run
 1. Install dependencies:
