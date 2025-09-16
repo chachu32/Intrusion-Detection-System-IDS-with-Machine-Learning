@@ -17,6 +17,7 @@ Design and implement an Intrusion Detection System (IDS) that uses machine learn
 - Model evaluation using accuracy, precision, recall, and F1-score metrics.
 
 ## Folder Structure
+
 IDS-ML/
 ├── data/
 │   ├── captured_traffic.csv      # Processed network traffic data
